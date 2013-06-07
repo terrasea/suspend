@@ -3,6 +3,9 @@ const PopupMenu = imports.ui.popupMenu
 const Lang = imports.lang;
 const UPower = imports.gi.UPowerGlib;
 
+const ExtensionUtils = imports.misc.extensionUtils;
+const Me = ExtensionUtils.getCurrentExtension();
+const Convenience = Me.imports.convenience;
 
 function ShellSuspendMenuItem() {
   this._init.apply(this, arguments);
@@ -116,6 +119,7 @@ ShellSuspendOption.prototype = {
 
 
 function init() {
+  Convenience.initTranslations('gnome-shell-extension');
   return new ShellSuspendOption();
 }
 

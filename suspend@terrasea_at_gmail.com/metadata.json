@@ -1,0 +1,8 @@
+{
+"shell-version": ["3.8"],
+"uuid": "suspend@terrasea_at_gmail.com", 
+"name": "Suspend", 
+"description": "Add a suspend menu option to system menu",
+"extension-id": "Suspend",
+"settings-schema": "org.gnome.shell.extensions.suspend"
+}

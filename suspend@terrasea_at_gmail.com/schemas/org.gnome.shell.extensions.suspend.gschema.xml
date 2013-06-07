@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extension-suspend">
+  <schema path="/org/gnome/shell/extensions/suspend/" id="org.gnome.shell.extensions.suspend">
+    <key type="s" name="grouping-mode">
+      <default>"Group"</default>
+      <summary>Refresh interval</summary>
+    </key>
+  </schema>
+</schemalist>
